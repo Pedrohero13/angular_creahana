@@ -1,0 +1,19 @@
+
+<a [routerLink]="['noteDetail', item.id]">
+    <div class="col p-1">
+        <div class="card mb-3 bg-secondary" style="max-width: 1000px;">
+            <div class="row g-0">
+              <div class="col-md-4 ">
+                <img src={{item.foto}} class="card-img-end img-fluid " alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title text-light">{{item.titulo}}</h5>
+                  <p class="card-text text-light">{{item.descripcion}}</p>
+                  <p class="card-text text-light"><small >{{item.fecha}}</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+</a>

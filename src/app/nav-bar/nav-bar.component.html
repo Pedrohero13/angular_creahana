@@ -1,0 +1,24 @@
+<div class="cuadro">
+    
+    <ul class="nav flex-column">
+        <div class="titulo">Centro de noticias</div>
+        <br>
+        <div class="cambio">
+            <li class="nav-item">
+                <a class="nav-link  " (click)="onClickdiv1()" [ngClass]="{'active': div1}" aria-current="page" href="#">Tus noticias</a>
+            </li>
+        </div>
+        <div class="cambio">
+            <li class="nav-item">
+                <a class="nav-link" (click)="onClickdiv2()" [ngClass]="{'active': div2}" href="#">Nacionales</a>
+            </li>
+        </div>
+        <div class="cambio">
+            <li class="nav-item">
+                <a class="nav-link" (click)="onClickdiv3()" [ngClass]="{'active': div3}" href="#">internacionales</a>
+            </li>
+           
+        </div>
+
+    </ul>
+</div>
